@@ -1,0 +1,157 @@
+html{
+    background-image: url(../fotos/dinheiroBackground.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    overflow-x: hidden;
+    width: 100%;
+    
+    
+}
+body{
+    background-color: rgba(124, 122, 122, 0.384);  
+    padding-top: 10px;
+    min-width: auto;
+    margin: -8px;
+}
+
+
+.tituloindex{
+    text-align: center;
+    font-family: Impact,  'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 75px;
+    padding-top: 20px;
+    text-shadow: 3px 1px black;
+    line-height: 1.5;
+
+}
+.tituloTexto{
+    font-size: 70px;
+    padding-top: 40px;
+    line-height: 1.5;
+}
+
+.subTitulo{
+    font-size: 38px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-indent: 40px;
+    line-height: 1.6;
+    padding-bottom: 20px;
+
+}
+
+article{
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(105, 102, 102);
+    text-align: justify;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 4px;
+    text-indent: 40px;
+    line-height: 1.5;
+}
+
+.mainframe{
+    background-color:rgb(255, 255, 255, 0.9);
+    text-align: center;
+    background-size: auto ;
+    margin-left: 350px;
+    margin-right: 350px;
+    max-width: fit-content;
+
+    
+
+}
+
+#menu ul li{
+    display:inline; 
+    padding: 40px;
+}
+
+.vazio{
+margin-left: 180px;
+font-size: 0;
+}
+
+#menu{
+    margin-left: 100px;
+    width: 1850px;
+    margin-left: 100px;
+    }
+
+#menu ul li a{  
+    padding: 4px 10px;
+    background-color: rgb(255, 255, 255);
+    text-decoration:solid;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    text-shadow: 3px 1px rgb(255, 255, 255);
+    border-radius: 40px;
+    line-height: 70px;
+
+}
+
+#menu ul li a:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-top:2px solid rgb(255, 0, 0);
+    border-bottom: 2px solid rgb(255, 0, 0);
+    border-left: 2px solid rgb(255, 0, 0);
+    border-right: 2px solid rgb(255, 0, 0);
+    border-radius: 40px;
+    text-shadow: 3px 1px rgba(255, 255, 255, 0);
+}
+
+
+.articlelista{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(105, 102, 102);
+    text-align: justify;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 2px;
+    text-indent: 40px;
+    line-height: 1.5;
+    margin-bottom: 60px;
+
+}
+
+
+.aparelhosLista {
+    border: transparent rgb(255, 255, 255);
+    border-spacing: 0;
+    font: normal 13px Arial, sans-serif;
+    text-align: center;
+    margin-left: 210px;
+    margin-right: 180px;
+    margin-bottom: 50px;
+    
+}
+
+
+
+.aparelhosLista thead th {
+    background-color: rgba(58, 58, 58, 0.2);
+    border: transparent;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    border: solid rgba(0, 0, 0, 0.418);
+}
+
+
+.aparelhosLista tbody td {
+    border: transparent;
+    color: black;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color:rgba(255,255,255,0.2)
+    
+}
+
